@@ -36,9 +36,9 @@ It can be confusing and difficult for a person with curly hair to figure out how
 I will use the [Accuweather API] (https://developer.accuweather.com/). Interestingly, they have their own hair frizz index, but do not reveal how they arrived at this metric. I will need to decide if I should rely on it (as it is a complete black box) or create my own.
 
 Accuweather's API does limit the number of free requests I can make per day to fifty. If we foresee this as an issue, then I could instead use:
-- *[Darksky API] (https://darksky.net/dev)*
-- *[Weatherbit API] (https://www.weatherbit.io/api)*
-- *[ClimaCell API] (https://developer.climacell.co/)*
+- *[Darksky API](https://darksky.net/dev)*
+- *[Weatherbit API](https://www.weatherbit.io/api)*
+- *[ClimaCell API](https://developer.climacell.co/)*
 
 ### Python Package Requirements
 
@@ -46,7 +46,7 @@ Accuweather's API does limit the number of free requests I can make per day to f
 2. json to parse data
 3. requests to interact with the API
 4. pytest for testing purposes
-5. *possibly also [geocoder] (http://geocoder.readthedocs.io/) to geolocate user*
+5. *possibly also [geocoder](http://geocoder.readthedocs.io/) to geolocate user*
 
 ### Hardware Requirements
 
