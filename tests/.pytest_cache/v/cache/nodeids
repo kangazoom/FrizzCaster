@@ -1,0 +1,4 @@
+[
+  "frizzcaster_test.py::test_detect_ip",
+  "frizzcaster_test.py::test_choose_location"
+]

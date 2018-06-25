@@ -1,0 +1,7 @@
+dotenv
+json
+os
+requests
+from datetime import datetime
+from dateutil.parser import parse
+pytest
