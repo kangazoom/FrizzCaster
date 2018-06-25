@@ -1,4 +1,5 @@
 [
   "frizzcaster_test.py::test_detect_ip",
-  "frizzcaster_test.py::test_choose_location"
+  "frizzcaster_test.py::test_frizz_adviser_now",
+  "frizzcaster_test.py::test_frizz_adviser_daily"
 ]
