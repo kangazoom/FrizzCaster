@@ -54,7 +54,7 @@ python app/frizzcaster.py
 
 ### Testing
 Test cases exist in the freestyle-app/tests directory.
-,,,
+```
 cd freestyle-app/tests
 pytest
 ```
