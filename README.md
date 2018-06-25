@@ -59,4 +59,4 @@ cd freestyle-app/tests
 pytest
 ```
 
-### [License](http://kangazoom/freestyle-app/license)
+### [License](https://github.com/kangazoom/freestyle-app/blob/master/license)

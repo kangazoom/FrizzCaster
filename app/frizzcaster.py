@@ -7,7 +7,6 @@ import pytest
 from dateutil.parser import parse
 
 # load environment variable
-# TODO: how to share w/ prof?
 load_dotenv()
 api_key = os.environ.get("ACCUWEATHER_API_KEY") or "OOPS. Please set an environment variable named 'ACCUWEATHER_API_KEY'."
 
@@ -380,8 +379,6 @@ def run_prog():
     frizz_cast = forecast_range(location_key = location_key)
 
     print(f"** {location_name} **")
-
-    # TODO: current - what if 3 items returned: frizzcast, why_precipitation, why_high_dewpoint
 
     for date, cast in frizz_cast.items():
         print(f"\n+ {date.upper()} FRIZZCAST +")
