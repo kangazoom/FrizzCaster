@@ -16,12 +16,6 @@ api_key = os.environ.get("ACCUWEATHER_API_KEY") or "OOPS. Please set an environm
 # if yes, return; if no, add to list and then return
 def parse_response(response):
 
-    try:
-    # when yes 200 response
-        response.raise_for_status()
-    except requests.exceptions.HTTPError as e:
-    # when not 200 response status
-        return "HTTP Error: " + str(e)
 
     if isinstance(response.text, str):
         response_text = json.loads(response.text)
