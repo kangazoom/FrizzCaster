@@ -1,6 +1,4 @@
-# freestyle-app
-
-## frizzcaster.py
+# frizzcaster.py
 
 ### FRIZZCASTER
 This app tells curly-haired users the likelihood of frizzy hair in their forecast.
